@@ -1,0 +1,85 @@
+body {
+    height: 738px;
+    font-family: Arial, sans-serif;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.title {
+    text-align: center;
+}
+.h1{
+    text-size-adjust: 40px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(1.4);
+    width: 100%; /* Set the width to your desired size */
+    height: 100%; /* Set the height to your desired size */
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.view-menu-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-menu-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Occupy the full width of the viewport */
+}
+p{
+    text-align: center;
+    text-size-adjust: 18px;
+}
+main {
+    margin-bottom: 60px; /* Create space between the main content and the footer */
+}
